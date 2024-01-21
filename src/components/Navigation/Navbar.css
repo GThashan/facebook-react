@@ -1,0 +1,105 @@
+.navbar-box{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020c15;
+    position: sticky;
+    top: 0;
+}
+.navbar-left{
+ flex: 3;
+}
+.logo{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.navbar-center{
+ padding: 2px;
+ flex: 5;
+ width: 100%;
+ background-color: white;
+
+ border-radius: 30px;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ height: 30px;
+
+}
+.input-feild{
+    border: none;
+    
+    margin-left: 3px;
+    width: 80%;
+}
+.input-feild:focus{
+    outline: none;
+}
+.searchIcon{
+    margin-left: 10px;
+}
+.navbar-right{
+flex: 4;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: white;
+}
+.navbar-links{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.navbar-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileImg{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.navbar-links{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.navlink{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.navbar-icons{
+  flex: 4;
+  
+}
+.navbar-profile{
+  flex: 2;
+ 
+}
+.navbar-icon{
+    display: grid;
+    grid-template-columns: 3;
+    gap: 5;
+    /* margin-right: 5px; */
+    position: relative;
+}
+.icon_count{
+    position: absolute;
+    background-color: red;
+    border-radius: 30%;
+    width: 15px;
+    height: 15px;
+    left: 50%;
+    top: -10%;
+    
+
+}
