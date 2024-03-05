@@ -21,9 +21,9 @@ export default function Navbar() {
               <div className="navbar-link">
                   <span className="navlink">Home</span>
               </div>
-              <div className="navbar-link">
+              {/* <div className="navbar-link">
               <span className="navlink">Profile</span>
-              </div>
+              </div> */}
           </div>
 
           <div className="navbar-icons">
