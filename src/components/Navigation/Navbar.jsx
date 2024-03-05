@@ -18,9 +18,9 @@ export default function Navbar() {
       </div>
       <div className="navbar-right">
           <div className="navbar-links">
-              <div className="navbar-link">
+              {/* <div className="navbar-link">
                   <span className="navlink">Home</span>
-              </div>
+              </div> */}
               {/* <div className="navbar-link">
               <span className="navlink">Profile</span>
               </div> */}
